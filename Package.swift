@@ -4,7 +4,7 @@ import PackageDescription
 let package = Package(
     name: "MobileLovableKit",
     platforms: [
-        .iOS(.v16)
+        .iOS(.v17)
     ],
     products: [
         .library(name: "MobileLovableKit", targets: ["MobileLovableKit"])
@@ -12,8 +12,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "MobileLovableKit",
-            url: "https://github.com/asadparvaiz/mobile-lovable-ios-sdk/releases/download/0.2.6/MobileLovableKit.xcframework.zip",
-            checksum: "284fbded5df23e093706990eaeadd80f983ab467c4adec9fb1e34aee357cbfb3"
+            url: "https://github.com/asadparvaiz/mobile-lovable-ios-sdk/releases/download/0.3.0/MobileLovableKit.xcframework.zip",
+            checksum: "0036713229870066044dcbd9bbc4fd544b602e950dafd6d6ff3d5195c00d0e1d"
         )
     ]
 )
