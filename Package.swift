@@ -12,8 +12,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "MobileLovableKit",
-            url: "https://github.com/asadparvaiz/mobile-lovable-ios-sdk/releases/download/0.3.1/MobileLovableKit.xcframework.zip",
-            checksum: "201052fa8cf223b49fc8d6bb0675348e506c66097708d829852871515cf8d773"
+            url: "https://github.com/asadparvaiz/mobile-lovable-ios-sdk/releases/download/0.3.2/MobileLovableKit.xcframework.zip",
+            checksum: "146f533c9d38fa5831ff8f83836c38c91caa37a9bd2295d8d822cec3f6242cc0"
         )
     ]
 )
